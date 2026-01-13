@@ -101,17 +101,6 @@ FULL-STACK AUTH PROJECT/
    npm install
    ```
 
-3. **Set up environment variables**
-   - Copy `.env.example` to `.env`
-   - Update the following variables:
-     ```
-     MONGODB_URI=mongodb://localhost:27017/auth-db
-     JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
-     PORT=5000
-     FRONTEND_URL=http://localhost:3000
-     ```
-   - For MongoDB Atlas, use: `mongodb+srv://username:password@cluster.mongodb.net/auth-db`
-   - Generate a secure JWT secret: `openssl rand -base64 32`
 
 4. **Start the server**
    ```bash
