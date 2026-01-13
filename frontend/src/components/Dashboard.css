@@ -1,0 +1,89 @@
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #333;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.navbar h2 {
+  color: white;
+  margin: 0;
+  text-align: left;
+}
+
+.navbar button {
+  width: auto;
+  padding: 8px 20px;
+  background-color: #f44336;
+  font-size: 14px;
+}
+
+.navbar button:hover {
+  background-color: #da190b;
+}
+
+.dashboard-box {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-box h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.user-info {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.user-info p {
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 16px;
+}
+
+.user-info strong {
+  color: #333;
+}
+
+.info-section {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-section h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.info-section p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #f5c6cb;
+}
