@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Base URL for backend API
 // Change this if your backend runs on a different port
-const API_URL = 'http://localhost:5000/api';
+const API_URL = "https://full-stack-auth-project.onrender.com/api";
 
 /**
  * Create axios instance with default configuration
