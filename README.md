@@ -12,6 +12,13 @@ A simple, clean authentication system built with React (frontend), Node.js + Exp
 - ✅ Basic error handling
 - ✅ Clean, beginner-friendly architecture
 
+Live Demo
+
+Frontend (Vercel): https://full-stack-auth-project-seven.vercel.app
+
+Backend (Render): https://full-stack-auth-project.onrender.com
+
+
 ## Project Structure
 
 ```
